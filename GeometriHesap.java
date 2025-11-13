@@ -47,14 +47,13 @@ public class GeometriHesap {
         return a + b + c;
     }
 
-    // --- Main Metodu (Uyarı Giderildi ve Yeni Değerler Kullanıldı) ---
 
     public static void main(String[] args) {
         // Uyarıyı gidermek için yeni kullanım: Locale.US
         // Bu, çıktıda ondalık ayırıcı olarak noktayı korur.
         Locale.setDefault(Locale.US); 
 
-        // --- YENİ GİRDİ DEĞERLERİ ---
+        // --- GİRDİ DEĞERLERİ ---
         double kareKenar = 6.0;
 
         double dikdortgenKisa = 5.0;
